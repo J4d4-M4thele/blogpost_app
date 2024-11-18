@@ -16,7 +16,7 @@ function Footer() {
                     />
                     {/* logo text  */}
                     <span className="ml-3 text-xl text-white">
-                        Devknus
+                        Big on Blogs
                     </span>
                 </div>
 
