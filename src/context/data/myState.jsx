@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import MyContext from './myContext';
-
+//tracks application's state (dark or light mode)
 function MyState(props) {
-  const [mode, setMode] = useState('light'); // Whether dark mode is enabled or not
+  const [mode, setMode] = useState('light'); // light by default 
   const toggleMode = () => {
     if (mode === 'light') {
       setMode('dark');
